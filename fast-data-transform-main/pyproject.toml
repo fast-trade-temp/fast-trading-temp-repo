@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fast-data-transform"
+version = "0.0.2"
+authors = [
+  { name="Benny Huang", email="j.benny.huang@gmail.com" },
+]
+description = "fast-data-transform"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/FastTrading/fast-data-transform"
+"Bug Tracker" = "https://github.com/FastTrading/fast-data-transform/issues"

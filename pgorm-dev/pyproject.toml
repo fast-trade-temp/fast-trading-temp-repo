@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pgorm"
+version = "0.0.1"
+authors = [
+  { name="Benny Huang", email="j.benny.huang@gmail.com" },
+]
+description = "Lightweight object relational mapper for PostgreSQL"
+readme = "README.md"
+# license = { file="LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/FastTrading/pgorm"
+"Bug Tracker" = "https://github.com/FastTrading/pgorm/issues"

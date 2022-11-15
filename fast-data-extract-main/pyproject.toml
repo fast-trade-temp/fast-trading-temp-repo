@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fast-data-extract"
+version = "0.0.7"
+authors = [
+  { name="Benny Huang", email="j.benny.huang.developer@gmail.com" },
+  { name="Steven Hyun", email="sshyun@uwaterloo.ca" }
+]
+description = "Fast Fetching"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/FastTrading/fast-data-extract"
+"Bug Tracker" = "https://github.com/FastTrading/fast-data-extract/issues"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+dependencies = [
+    "fast-data-common @ git+https://git@github.com/FastTrading/fast-data-common.git@main",
+    "pandas",
+    "requests",
+    "beautifulsoup4",
+    "js2py"
+]

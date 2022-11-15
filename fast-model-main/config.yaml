@@ -1,0 +1,14 @@
+db:
+  pgdata: ./pgdata
+  host: localhost
+  port: 5432
+  dbs:
+    - username: mlflow
+      password: mlflow
+      dbname: mlflow
+    - username: airflow_user
+      password: airflow_pass
+      dbname: airflow_db
+    - username: db_user
+      password: db_pass
+      dbname: data_db

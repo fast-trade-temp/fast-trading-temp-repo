@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fast_data_cleanup"
+version = "0.0.1"
+authors = [
+  { name="Benny Huang", email="j.benny.huang.developer@gmail.com" },
+  { name="Steven Hyun", email="sshyun@uwaterloo.ca" }
+]
+description = "Fast Data Cleanup"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/FastTrading/fast-data-cleanup"
+"Bug Tracker" = "https://github.com/FastTrading/fast-data-cleanup/issues"

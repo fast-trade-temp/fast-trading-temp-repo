@@ -1,0 +1,12 @@
+FROM ubuntu:latest
+
+RUN apt-get update
+
+# Install python3 and pip3
+RUN apt-get install -y python3 python3-pip
+
+# Install mlflow
+RUN pip3 install mlflow
+
+# Start mlflow tracking server
+ENTRYPOINT mlflow ui --backend-store-uri sqlite:///var/lib/mlflow/store.db --host 0.0.0.0 --port 8080

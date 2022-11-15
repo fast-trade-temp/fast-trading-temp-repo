@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  mlflow:
+    container_name: mlflow
+    image: mlflow
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./docker/mlflow:/var/lib/mlflow

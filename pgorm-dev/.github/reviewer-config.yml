@@ -1,0 +1,9 @@
+addReviewers: true
+
+addAssignees: author
+
+reviewers:
+  - steven9909
+  - JBennyHuang
+
+numberOfReviewers: 1

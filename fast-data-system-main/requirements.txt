@@ -1,0 +1,4 @@
+git+https://github.com/FastTrading/fast-data-extract@main
+git+https://github.com/FastTrading/fast-data-transform@main
+git+https://github.com/FastTrading/fast-data-cleanup.git@main
+git+https://github.com/FastTrading/fast-data-common.git@main
